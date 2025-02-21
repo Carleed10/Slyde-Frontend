@@ -21,7 +21,7 @@ const countryData = [
 
 const Countries = () => {
   return (
-    <div className="w-full flex justify-center py-10 bg-gray-100">
+    <div className="w-full flex justify-center py-10">
     <div className="w-[85%] flex flex-col items-center text-center">
       <h1 className="text-3xl font-bold mb-8 text-gray-800">
         Countries We Help You Study In

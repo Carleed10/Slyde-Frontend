@@ -5,6 +5,9 @@ import HowWeHelp from '../Components/HowWeHelp'
 import Countries from '../Components/Countries'
 import Marquee from '../Components/FlagMarquee'
 import WhyChooseUs from '../Components/WhyChooseUs'
+import ServiceSection from '../Components/ServiceSection'
+import ServiceProvided from '../Components/ServiceProvided'
+import Video from '../Components/Video'
 
 const HomePage = () => {
   return (
@@ -17,18 +20,26 @@ const HomePage = () => {
             <div id='WhyChooseUs'>
                 <WhyChooseUs/>
             </div>
+            <div id='ServiceProvided'>
+                <ServiceProvided/>
+            </div>
+            <div id='ServiceSection'>
+                <ServiceSection/>
+            </div>
+            <div id='Video'>
+                <Video/>
+            </div>
             <div id='HowWeHelp'>
                 <HowWeHelp/>
             </div>
             <div id='Countries'>
                 <Countries/>
             </div>
+          
             <div id='Marquee'>
                 <Marquee/>
             </div>
-            <div id='Footer'>
-                <Footer/>
-            </div>
+
         </div>
     
     </>
