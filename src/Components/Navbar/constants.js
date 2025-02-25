@@ -12,6 +12,10 @@ export const navigationLinks = [
         path: "/services",
     },
     {
+      title: "Country Overview",
+      path: "/countryOverview",
+    },
+    {
       title: "Gallery",
       path: "/gallery",
     },

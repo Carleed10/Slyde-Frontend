@@ -10,7 +10,7 @@ const OurVision = () => {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
             <p className="text-gray-700 leading-relaxed">
-              At <span className="font-semibold text-blue-600">[Your Company Name]</span>, we are dedicated to providing excellence in professional educational consultancy services. Over the years, our commitment to quality and innovation has made us a trusted name in Nigeria and Africa.
+              At <span className="font-semibold text-blue-600">Slyde International Services Limited</span>, we are dedicated to providing excellence in professional educational consultancy services. Over the years, our commitment to quality and innovation has made us a trusted name in Nigeria and Africa.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ const OurVision = () => {
         {/* Closing Statement */}
         <div className="text-center max-w-2xl mx-auto mt-8">
           <p className="text-gray-700 text-lg font-medium">
-            At <span className="font-semibold text-blue-600">[Your Company Name]</span>, we are committed to shaping bright futures through expert guidance and dedicated support.
+            At <span className="font-semibold text-blue-600">Slyde International Services Limited</span>, we are committed to shaping bright futures through expert guidance and dedicated support.
           </p>
         </div>
       </div>

@@ -43,8 +43,7 @@ const Footer = () => {
             {/* Services */}
             <div className="mt-10 md:w-[20%] mt-[60px] md:mt-0 text-center md:text-left">
             <h4 className="mb-6 text-[rgb(249,115,22)]">Address</h4>
-              <h6 className="leading-[30px] text-[15px] font-light" >No 1, Onikoko Area, Kasumu Road, Arubiewe-Olodo
-              P.O. Box 6442 Agodi Post Office, Ibadan, Oyo State</h6>
+              <h6 className="leading-[30px] text-[15px] font-light" >65, M.K.0 Abiola Way. Opposite Dikat Building, Ring Road, lbadan, Oyo State, Nigeria.</h6>
               
             </div>
           </div>

@@ -1,4 +1,9 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
 import us from "../Images/download (25).jpeg";
 import uk from "../Images/download (24).jpeg";
 import australia from "../Images/Two Guys From Germany Decided To Explore This Awesome World, Here Is The Best Of What They’ve Seen So Far (30 Pics).jpeg";
@@ -22,30 +27,62 @@ const countryData = [
 const Countries = () => {
   return (
     <div className="w-full flex justify-center py-10">
-    <div className="w-[85%] flex flex-col items-center text-center">
-      <h1 className="text-3xl font-bold mb-8 text-gray-800">
-        Countries We Help You Study In
-      </h1>
+      <div className="w-[85%] flex flex-col items-center text-center">
+        <h1 className="text-3xl font-bold mb-8 text-gray-800">
+          Countries We Help You Study In
+        </h1>
 
-      <div className="flex flex-wrap justify-between gap-y-14">
-        {countryData.map((country, index) => (
-          <div
-            key={index}
-            className={`w-[270px] h-[400px] ${country.bgColor} rounded-lg overflow-hidden shadow-lg`}
+        {/* Carousel on small screens */}
+        <div className="relative md:hidden w-full">
+          <Swiper
+            modules={[Pagination, Autoplay]}
+            pagination={{ clickable: true, el: ".custom-pagination" }}
+            autoplay={{ delay: 2500 }}
+            loop={true}
+            className="w-full"
           >
-            <img
-              className="w-full h-[90%] object-cover"
-              src={country.image}
-              alt={country.name}
-            />
-            <h3 className="text-center text-white font-semibold text-lg py-2">
-              {country.name}
-            </h3>
-          </div>
-        ))}
+            {countryData.map((country, index) => (
+              <SwiperSlide key={index}>
+                <div
+                  className={`w-[270px] h-[400px] ${country.bgColor} mx-auto rounded-lg overflow-hidden shadow-lg`}
+                >
+                  <img
+                    className="w-full h-[90%] object-cover"
+                    src={country.image}
+                    alt={country.name}
+                  />
+                  <h3 className="text-center text-white font-semibold text-lg py-2">
+                    {country.name}
+                  </h3>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          {/* Pagination below the carousel */}
+          <div className="custom-pagination !static mt-4 flex justify-center space-x-2"></div>
+        </div>
+
+        {/* Grid on larger screens */}
+        <div className="hidden md:flex flex-wrap justify-between gap-y-14">
+          {countryData.map((country, index) => (
+            <div
+              key={index}
+              className={`w-[270px] h-[400px] ${country.bgColor} rounded-lg overflow-hidden shadow-lg`}
+            >
+              <img
+                className="w-full h-[90%] object-cover"
+                src={country.image}
+                alt={country.name}
+              />
+              <h3 className="text-center text-white font-semibold text-lg py-2">
+                {country.name}
+              </h3>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
-  </div>
   );
 };
 

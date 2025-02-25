@@ -13,7 +13,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="relative bg-blue-50 py-16 px-6">
+    <section className="relative bg-[rgb(243,244,246)] py-16 px-6">
       {/* Airplane Image */}
       <img 
         src="https://cdn-icons-png.flaticon.com/512/201/201623.png" 

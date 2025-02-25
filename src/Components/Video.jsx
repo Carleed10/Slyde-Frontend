@@ -2,7 +2,7 @@ import React from "react";
 
 const Video = () => {
   return (
-    <div className="flex justify-center items-center bg-red-500 p-4 min-h-screen">
+    <div className="flex justify-center items-center px-4 py-8">
       <div className="w-[90%] lg:w-[80%] xl:w-[70%]">
         <div className="w-full aspect-video">
           <iframe

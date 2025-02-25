@@ -8,6 +8,7 @@ import WhyChooseUs from '../Components/WhyChooseUs'
 import ServiceSection from '../Components/ServiceSection'
 import ServiceProvided from '../Components/ServiceProvided'
 import Video from '../Components/Video'
+import Testimonials from '../Components/Testimonials'
 
 const HomePage = () => {
   return (
@@ -38,6 +39,10 @@ const HomePage = () => {
           
             <div id='Marquee'>
                 <Marquee/>
+            </div>
+
+            <div id='Testimonials'>
+                <Testimonials/>
             </div>
 
         </div>

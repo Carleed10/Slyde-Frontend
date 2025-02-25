@@ -7,6 +7,10 @@ import AboutLayout from "./Layouts/AboutLayout";
 import AboutPage from "./Pages/AboutPage";
 import ServicesLayout from "./Layouts/ServicesLayout";
 import ServicesPage from "./Pages/ServicesPage";
+import GalleryLayout from "./Layouts/GalleryLayout";
+import GalleryPage from "./Pages/GalleryPage";
+import CountryOverviewLayout from "./Layouts/CountryOverviewLayout";
+import CountryOverviewPage from "./Pages/CountryOverviewPage";
 
 
 const router = createBrowserRouter([
@@ -29,7 +33,18 @@ const router = createBrowserRouter([
     path: "/services",
     element: <ServicesLayout/>,
     children: [{ path: "", element: <ServicesPage/> }],
+  },
+  {
+    path: "/gallery",
+    element: <GalleryLayout/>,
+    children: [{ path: "", element: <GalleryPage/> }],
+  },
+  {
+    path: "/countryOverview",
+    element: <CountryOverviewLayout/>,
+    children: [{ path: "", element: <CountryOverviewPage/> }],
   }
 ]);
+
 
 export default router;

@@ -37,7 +37,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           sx={{
             '&.Mui-expanded': {
-              backgroundColor: 'rgb(249,115,22)',
+              backgroundColor: 'rgb(59,130,246)',
               color: 'white',
             },
             '&:focus': { outline: 'none' },
@@ -81,7 +81,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           sx={{
             '&.Mui-expanded': {
-              backgroundColor: 'rgb(249,115,22)',
+              backgroundColor: 'rgb(34,197,94)',
               color: 'white',
             },
             '&:focus': { outline: 'none' },
@@ -124,7 +124,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           sx={{
             '&.Mui-expanded': {
-              backgroundColor: 'rgb(249,115,22)',
+              backgroundColor: 'rgb(168,85,247)',
               color: 'white',
             },
             '&:focus': { outline: 'none' },
@@ -167,7 +167,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           sx={{
             '&.Mui-expanded': {
-              backgroundColor: 'rgb(249,115,22)',
+              backgroundColor: 'rgb(239,68,68)',
               color: 'white',
             },
             '&:focus': { outline: 'none' },

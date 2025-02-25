@@ -1,5 +1,6 @@
 import React from "react";
 import airplane from "../Images/air.png"; // Add an airplane image
+import { Link } from "react-router-dom";
 // import students from "../Images/students-studying-abroad.jpg"; // Add a relevant image
 
 const WhyChooseUs = () => {
@@ -42,9 +43,11 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Call-to-Action Button */}
+          <Link to={"/aboutus"}>
           <button className="mt-6 bg-red-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600">
             Learn More
           </button>
+          </Link>
         </div>
 
         {/* Right Section - Image */}
