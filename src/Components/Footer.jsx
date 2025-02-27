@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -20,12 +22,12 @@ const Footer = () => {
             <div className="mt-10 md:w-[20%] leading-[30px]  mt-[60px] font-light md:mt-0 text-center md:text-left">
               <h4 className="font-bold text-[rgb(249,115,22)] md:font-normal mb-6">Quick Links</h4>
               
-              {/* <Link to='/services'> <p>Our Services</p>   </Link> */}
-              {/* <Link to='/contact'> <p>Addresses</p>   </Link> */}
-              {/* <Link to='/contact'> <p>Contact</p>   </Link> */}
-              {/* <HashLink to="/services#faq"> */}
+              <Link to='/services'> <p>Our Services</p>   </Link>
+              <Link to='/contact'> <p>Addresses</p>   </Link>
+              <Link to='/contact'> <p>Contact</p>   </Link>
+              <HashLink to="/services#faq">
   <p>FAQ</p>
-{/* </HashLink> */}
+</HashLink>
 
              
             </div>
@@ -60,7 +62,7 @@ const Footer = () => {
           </div>
 
           <hr className="border-t border-[rgb(136,134,134)] my-10" />
-          <small className="block text-center">© 2024 Gbadegesin Properties. All rights served.</small>
+          <small className="block text-center">© 2025 Slyde International Services Limited. All rights served.</small>
         </div>
       </div>
     

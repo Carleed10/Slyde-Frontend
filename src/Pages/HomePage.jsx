@@ -24,9 +24,9 @@ const HomePage = () => {
             <div id='ServiceProvided'>
                 <ServiceProvided/>
             </div>
-            <div id='ServiceSection'>
+            {/* <div id='ServiceSection'>
                 <ServiceSection/>
-            </div>
+            </div> */}
             <div id='Video'>
                 <Video/>
             </div>

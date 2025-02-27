@@ -1,11 +1,18 @@
 import React from "react";
 import "./StudyAbroad.css"; // Import the CSS file
+import us from "../../Images/download (25).jpeg";
+import uk from "../../Images/download (24).jpeg";
+import australia from "../../Images/Two Guys From Germany Decided To Explore This Awesome World, Here Is The Best Of What They’ve Seen So Far (30 Pics).jpeg";
+import germany from "../../Images/Cologne Cathedrals.jpeg";
+import canada from "../../Images/Notre-Dame Basilica, Montreal.jpeg";
+import ireland from "../../Images/9 Secrets of Blarney Castle in Ireland - Fun Blarney Castle Facts.jpeg";
+import france from "../../Images/Paris, France Travel Guide ✨.jpeg";
+import zealand from "../../Images/Sky Tower Auckland Restaurant - Orbit 360° & Observation Deck, New Zealand.jpeg";
 
 const countries = [
   {
     name: "United Kingdom (UK)",
-    flag: "/images/flags/uk.png",
-    image: "/images/countries/uk.jpg",
+    image: uk,
     reasons: [
       "World-class universities such as Oxford and Cambridge.",
       "Globally recognized degrees with a strong academic reputation.",
@@ -31,7 +38,7 @@ const countries = [
   {
     name: "United States (US)",
     flag: "/images/flags/us.png",
-    image: "/images/countries/us.jpg",
+    image: us,
     reasons: [
       "Over 4,000 universities with globally ranked institutions.",
       "Flexible education system with customizable curriculum.",
@@ -58,7 +65,7 @@ const countries = [
   {
     name: "Germany",
     flag: "/images/flags/germany.png",
-    image: "/images/countries/germany.jpg",
+    image: germany,
     reasons: [
       "High-quality education with minimal or no tuition fees.",
       "Top-ranked technical and research universities.",
@@ -84,7 +91,7 @@ const countries = [
   {
     name: "Ireland",
     flag: "/images/flags/ireland.png",
-    image: "/images/countries/ireland.jpg",
+    image: ireland,
     reasons: [
       "A fast-growing tech and business hub with companies like Google, Facebook, and Apple.",
       "High-quality education and home to Trinity College Dublin, University College Dublin.",
@@ -108,7 +115,7 @@ const countries = [
   {
     name: "France",
     flag: "/images/flags/france.png",
-    image: "/images/countries/france.jpg",
+    image: france,
     reasons: [
       "A global leader in business, fashion, and engineering education.",
       "Affordable public universities with high-quality education.",
@@ -132,7 +139,7 @@ const countries = [
   {
     name: "New Zealand",
     flag: "/images/flags/newzealand.png",
-    image: "/images/countries/newzealand.jpg",
+    image: zealand,
     reasons: [
       "Ranked as one of the safest and most peaceful countries in the world.",
       "Strong student support systems with a welcoming environment.",
@@ -154,7 +161,7 @@ const countries = [
   {
     name: "Canada",
     flag: "/images/flags/canada.png",
-    image: "/images/countries/canada.jpg",
+    image: canada,
     reasons: [
       "Known for its high quality of education and multicultural environment.",
       "Post-Graduation Work Permit (PGWP) allows students to stay and work for up to 3 years.",
@@ -163,14 +170,17 @@ const countries = [
     opportunities:
       "Strong focus on research and innovation in STEM, healthcare, and social sciences.",
     admission: {
-      undergraduate: ["High school diploma.", "IELTS/TOEFL for English proficiency."],
+      undergraduate: [
+        "High school diploma.",
+        "IELTS/TOEFL for English proficiency.",
+      ],
       postgraduate: ["Bachelor’s degree with GPA requirement."],
     },
   },
   {
     name: "Australia",
-    flag: "/images/flags/australia.png",
-    image: "/images/countries/australia.jpg",
+    flag: australia,
+    image: australia,
     reasons: [
       "A high quality of life and a safe environment.",
       "Post-study work visa allows students to stay for 2-4 years after graduation.",
@@ -191,20 +201,43 @@ const countries = [
 const StudyAbroad = () => {
   return (
     <div className="study-abroad-container">
-      <h2 className="title">Study Abroad Opportunities</h2>
+      <h2 className="title font-poppins font-bold">
+        Study Abroad Opportunities
+      </h2>
       <div className="countries-container">
         {countries.map((country, index) => (
           <div key={index} className="country-card">
-            <img src={country.image} alt={country.name} className="country-image" />
+            <img
+              src={country.image}
+              alt={country.name}
+              className="country-image"
+            />
             <div className="country-info">
-              <img src={country.flag} alt={`${country.name} Flag`} className="flag" />
-              <h3>{country.name}</h3>
-              <p><strong>Opportunities:</strong> {country.opportunities}</p>
-              <h4>Reasons to Study:</h4>
-              <ul className="list-disc">{country.reasons.map((reason, i) => <li key={i}>{reason}</li>)}</ul>
-              <h4>Admission Requirements:</h4>
-              <p><strong>Undergraduate:</strong> {country.admission.undergraduate.join(", ")}</p>
-              <p><strong>Postgraduate:</strong> {country.admission.postgraduate.join(", ")}</p>
+              {/* <img src={country.flag} alt={`${country.name} Flag`} className="flag" /> */}
+              <h3 className="font-poppins font-bold">{country.name}</h3>
+              <p>
+                <strong>Opportunities:</strong> {country.opportunities}
+              </p>
+              <strong>
+                <h4>Reasons to Study:</h4>
+              </strong>
+              <ul className="list-disc">
+                {country.reasons.map((reason, i) => (
+                  <li key={i}>{reason}</li>
+                ))}
+              </ul>
+
+              <strong>
+                <h4>Admission Requirements:</h4>
+              </strong>
+              <p>
+                <strong>Undergraduate:</strong>{" "}
+                {country.admission.undergraduate.join(", ")}
+              </p>
+              <p>
+                <strong>Postgraduate:</strong>{" "}
+                {country.admission.postgraduate.join(", ")}
+              </p>
             </div>
           </div>
         ))}

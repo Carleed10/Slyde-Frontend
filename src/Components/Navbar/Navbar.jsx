@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import logo from "../../Images/red-logo.png";
+import logo from "../../Images/logo.png";
 import { IoSearchOutline } from "react-icons/io5";
 import { GiShoppingCart } from "react-icons/gi";
 import { CgMenu } from "react-icons/cg";
@@ -12,26 +12,26 @@ const Navbar = ({ onContactClick }) => {
 
   return (
     <div
-      className="px-4 bg-[white] text-[black] shadow-lg md:px-0 fixed top-0 w-full h-[12vh] sm:h-[12vh] font-semibold flex items-center justify-center z-50"
+      className="px-4 bg-[white] text-[black] md:px-0 fixed top-0 w-full h-[12vh] sm:h-[12vh] flex items-center justify-center z-50"
     >
       <div className="w-full lg:w-[85%] md:px-4 lg:px-0">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/">
-            {/* <img
-              className="w-[180px] sm:w-[220px] cursor-pointer"
+            <img
+              className="w-[190px] sm:w-[220px] cursor-pointer"
               src={logo}
               alt="Logo"
-            /> */}
+            />
           </Link>
 
           {/* Navigation Links */}
-          <ul className="flex items-center md:gap-8 lg:gap-24 hidden md:flex">
+          <ul className="flex font-normal items-center md:gap-8 lg:gap-12 hidden md:flex">
             {navigationLinks.map((data) => (
               <Link
                 key={data.title}
                 to={data.path}
-                className="font-[500] cursor-pointer hover:text-orange-500 hover:underline transition-all duration-300"
+                className="font-[500] cursor-pointer hover:text-[rgb(59,130,246)] transition-all duration-300"
               >
                 {data.title}
               </Link>

@@ -29,7 +29,7 @@ const CertificateGallery = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-10 px-5">
+    <div className="bg-[white] py-10 px-5">
       <h2 className="text-2xl font-bold text-center mb-6">Our Certifications</h2>
 
       {/* Show Carousel on Small Screens */}

@@ -1,8 +1,9 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center py-10 px-4">
+    <div className="min-h-screen font-poppins  bg-white flex flex-col items-center justify-center py-10 px-4">
       {/* Page Title */}
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
         Get in Touch
@@ -11,14 +12,14 @@ const Contact = () => {
       <div className="w-full max-w-6xl grid md:grid-cols-2 gap-8">
         {/* Contact Details */}
         <div className="bg-[rgb(243,244,246)] p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-2xl  font-semibold text-gray-800 mb-4">
             Contact Information
           </h2>
           <p className="text-gray-600 mb-6">
             Have a question? Reach out to us and we'll get back to you shortly.
           </p>
 
-          <div className="space-y-4">
+          <div className="space-y-2">
             <div className="flex items-center gap-4">
               <span className="text-blue-500 text-2xl">📍</span>
               <p className="text-gray-700">65, M.K.0 Abiola Way. Opposite Dikat Building, Ring Road, lbadan, Oyo State, Nigeria.</p>
@@ -38,9 +39,22 @@ const Contact = () => {
             <div className="flex items-center gap-4">
               <span className="text-red-500 text-2xl">📞</span>
               <p className="text-gray-700">+234 816 725 5630</p>
-            </div><div className="flex items-center gap-4">
+            </div>
+            <div className="flex items-center gap-4">
               <span className="text-red-500 text-2xl">📞</span>
               <p className="text-gray-700">+234 813 606 7362</p>
+            </div>
+            <div className="flex items-center gap-4">
+              <span className="text-blue-700 text-2xl"><FaFacebook /></span>
+              <p className="text-gray-700"> Slyde International Services </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <span className="text-green-500 text-2xl">📧</span>
+              <p className="text-gray-700"> Slyde_intl_services </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <span className="text-green-500 text-2xl">📧</span>
+              <p className="text-gray-700">Slyde_Intl</p>
             </div>
           </div>
         </div>

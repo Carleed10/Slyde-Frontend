@@ -1,23 +1,44 @@
 import React from "react";
+import us from "../Images/download (25).jpeg";
+import france from "../Images/stdet.jpg"
 
 const Hero = () => {
   return (
-    <>
-      <div className="w-full h-screen flex flex-col items-center justify-center bg-yellow-400 p-6">
-        <div className="w-[85%]">
-          <div className="w-[60%]">
-            <h1 className="leading-[75px] text-[50px] md:text-[65px] font-bold text-gray-900">
-              Travel the World, Study Beyond Boundaries
-            </h1>
+    <section className="w-full mt-[12vh] md:mt-[0vh] min-h-screen bg-blue-50 flex flex-col items-center justify-center p-6">
+      {/* Hero Content */}
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between">
+        
+        {/* Left Text Section */}
+        <div className="md:w-[48%] md:text-left">
+          <h1 className="text-4xl font-poppins md:text-6xl font-bold text-gray-900">
+            Travel Explore <br /> And Enjoy Every Moment
+          </h1>
+          <p className="mt-4 text-[15px] text-gray-700 md:text-lg max-w-lg">
+            Embark on a journey where every moment is an opportunity for discovery, from bustling streets to breathtaking landscapes.
+          </p>
+          
+        </div>
 
-            <h4 className="w-[75%] font-medium text-lg md:text-lg text-gray-800 mt-4 max-w-2xl">
-              From visa preparation to travel, we make your journey to study
-              abroad seamless and stress-free
-            </h4>
+        {/* Right Section - Image Placeholder */}
+        <div className="relative space-y-4 flex flex-col md:flex md:flex-row justify-between md:w-[48%] mt-10 md:mt-0">
+          <div className="w-40 h-64 md:w-[48%] md:h-[400px] bg-blue-300 rounded-3xl shadow-lg">
+          <img
+                className="w-full h-[100%] rounded-3xl object-cover"
+                src={france}
+                alt=""
+              />
+          </div>
+          <div className="w-40 h-64 md:w-[48%] md:h-[400px] bg-gray-400 rounded-3xl shadow-lg  md:top-6 md:right-[-20px]">
+
+          <img
+                className="w-full h-[100%] rounded-3xl  object-cover"
+                src={us}
+                alt=""
+              />
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

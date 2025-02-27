@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        vidaloka: ['Vidaloka', 'serif'], // Add Vidaloka font
+        vidaloka: ['Vidaloka', 'serif'],
+        poppins: ['Poppins', 'serif'] // Add Vidaloka font
       },
     },
   },

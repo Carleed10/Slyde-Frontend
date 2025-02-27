@@ -22,7 +22,7 @@ const OurServices = () => {
       />
 
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-blue-800">🌍 Our Services</h2>
+        <h2 className="text-4xl font-poppins  font-bold text-blue-800">🌍 Our Services</h2>
         <p className="text-gray-600 mt-4">Helping students achieve their study-abroad dreams with expert guidance.</p>
       </div>
 

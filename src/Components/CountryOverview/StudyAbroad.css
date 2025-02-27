@@ -1,5 +1,5 @@
 .study-abroad-container {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding: 20px;
     margin-top: 15vh;
@@ -49,27 +49,27 @@
     margin-bottom: 10px;
   }
   
-  h3 {
+  .study-abroad-container h3 {
     color: #222;
     font-size: 22px;
     margin: 10px 0;
   }
   
-  p {
+  .study-abroad-container p {
     color: #555;
     font-size: 16px;
   }
   
-  h4 {
+  .study-abroad-container h4 {
     margin-top: 10px;
     color: #444;
   }
   
-  ul {
+  .study-abroad-container ul {
     padding-left: 20px;
   }
   
-  ul li {
+  .study-abroad-container ul li {
     font-size: 14px;
     color: #666;
   }

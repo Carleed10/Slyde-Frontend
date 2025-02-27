@@ -1,22 +1,25 @@
 import React from "react";
+import traveler from "../Images/stdet.jpg"
+
 
 const ServiceSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center max-w-6xl mx-auto py-16 px-6">
+   <div className="w-[100%]">
+     <section className="flex flex-col justify-center lg:flex-row items-center lg:w-[85%] max- mx-auto py-10 px-6">
       {/* Left: Image */}
-      <div className="relative lg:w-1/2 w-full flex justify-center">
-        <div className="bg-yellow-200 rounded-2xl p-6">
+      <div className="relative w-[250px] flex justify-center">
+        <div className="rounded-2xl">
           <img
-            src="https://images.unsplash.com/photo-1599063792477-4551f5a8e8bb" 
+            src={traveler}
             alt="Traveler"
-            className="w-full max-w-sm rounded-xl"
+            className="w-full rounded-xl"
           />
         </div>
       </div>
 
       {/* Right: Text Content */}
       <div className="lg:w-1/2 w-full mt-10 lg:mt-0 lg:pl-12 text-center lg:text-left">
-        <h2 className="text-4xl font-bold text-gray-900">
+        <h2 className="text-4xl font-poppins  font-bold text-gray-900">
           Plan easy, Pay less & <br /> Experience more
         </h2>
         <p className="text-gray-600 mt-4">
@@ -25,6 +28,7 @@ const ServiceSection = () => {
         </p>
       </div>
     </section>
+   </div>
   );
 };
 

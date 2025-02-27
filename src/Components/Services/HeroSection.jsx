@@ -10,7 +10,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-white px-6">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-4xl font-poppins  md:text-5xl font-bold mb-4">
           Dreaming of Studying Abroad?
         </h1>
         <p className="text-lg md:text-xl mb-6">

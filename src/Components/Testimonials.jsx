@@ -31,7 +31,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-center">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">What Our Students Say</h2>
+      <h2 className="text-3xl font-poppins  font-bold text-gray-800 mb-8">What Our Students Say</h2>
       
       <Swiper
         modules={[Pagination, Autoplay]}
@@ -50,7 +50,7 @@ const Testimonials = () => {
               />
               <p className="text-gray-700 italic mb-4">"{testimonial.text}"</p>
               <h3 className="text-lg font-semibold text-gray-900">{testimonial.name}</h3>
-              <p className="text-sm text-gray-500">{testimonial.role}</p>
+              <p className="text-sm mb-30 text-gray-500">{testimonial.role}</p>
             </div>
           </SwiperSlide>
         ))}

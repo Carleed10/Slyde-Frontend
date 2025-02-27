@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 const ServicesBanner = () => {
   return (
     <>
-          <div className="w-full bg-[rgb(24,22,22)] text-white flex bg-no-repeat bg-center justify-center items-center h-[40vh] md:h-[65vh]">
+          <div className="w-full bg-[rgb(24,22,22)] text-white flex bg-no-repeat bg-center justify-center items-center mt-[12vh] h-[25vh] md:h-[35vh]">
             <div>
-            <h1 className="mt-2 font-bold leading-tight text-center text-[40px] md:text-[50px] bg-gradient-to-r bg-clip-text text-transparent"
+            <h1 className="mt-2 font-bold leading-tight font-poppins text-center text-[40px] md:text-[50px] bg-gradient-to-r bg-clip-text text-transparent"
             style={{
               backgroundImage:
                 "linear-gradient(to right, rgb(246,143,32), rgb(240,92,33))",
