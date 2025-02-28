@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import logo from "../Images/logo.png"
 
 const Footer = () => {
   return (
     <>
-          <div className="w-full bg-[rgb(243,244,246)] flex justify-center items-center text-black py-24">
+          <div className="w-full bg-[rgb(255,245,241)] flex justify-center items-center text-black py-24">
         <div className="w-4/5">
           <div className="flex flex-col md:flex-row justify-between">
             {/* Logo and description */}
             <div className="mt-10 md:w-[25%] leading-[30px] pr-[25px] items-center flex flex-col justify-center   mt-[60px] font-light md:mt-0 text-center md:text-left">
-            {/* <img className="w-[180px] mb-4 sm:w-[220px]" src={logo} alt="" /> */}
+            <img className="w-[180px] mb-4 sm:w-[220px]" src={logo} alt="" />
 
-              <p>Your trusted partner in finding the perfect home.</p>
+              <p>Your gateway to global education and unforgettable experiences.</p>
       
             </div>
 

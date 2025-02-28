@@ -7,9 +7,9 @@ import image4 from "../Images/travel-agent-offering-trip-planning-clients.jpg"
 
 const ServiceProvided = () => {
   return (
-    <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col lg:flex-row items-center">
+    <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col lg:flex-row ">
       {/* Left Side - Heading & Services List */}
-      <div className="lg:w-1/2 w-full text-center lg:text-left">
+      <div className="lg:w-1/2 w-full lg:text-left">
         <h2 className="text-4xl font-poppins font-bold text-gray-900">What services we provide</h2>
         <div className="mt-6 space-y-6">
           <div>

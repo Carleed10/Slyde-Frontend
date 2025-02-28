@@ -26,7 +26,7 @@ export default function TemporaryDrawer({ onClose, open }) {
           <div className="flex items-center justify-between mb-12">
             <div>
               <Link to="/">
-                <img className="w-[300px] cursor-pointer" src={logo} alt="Logo" />
+                <img className="w-[250px] cursor-pointer" src={logo} alt="Logo" />
               </Link>
             </div>
             <div className="cursor-pointer" onClick={onClose}>

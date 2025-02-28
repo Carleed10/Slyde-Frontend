@@ -4,7 +4,7 @@ import france from "../Images/stdet.jpg"
 
 const Hero = () => {
   return (
-    <section className="w-full mt-[12vh] md:mt-[0vh] min-h-screen bg-blue-50 flex flex-col items-center justify-center p-6">
+    <section className="w-full mt-[12vh] md:mt-[0vh] min-h-screen bg-gradient-to-r from-[rgba(9,209,2,0.164)] via-[rgba(245,255,152,0.432)] to-[rgba(0,255,34,0.123)] flex flex-col items-center justify-center p-6">
       {/* Hero Content */}
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between">
         

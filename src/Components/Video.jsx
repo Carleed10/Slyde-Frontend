@@ -5,7 +5,15 @@ const Video = () => {
     <div className="flex justify-center items-center px-4 py-8">
       <div className="w-[90%] lg:w-[80%] xl:w-[70%]">
         <div className="w-full aspect-video">
-          <iframe
+          <iframe className="w-full h-full rounded-lg shadow-lg"
+            src="https://www.youtube.com/embed/KBA-ajL6tMo"
+            title="Exclusive Visit to University of London | Partnership Announcement with Slyde International!"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          {/* <iframe
             className="w-full h-full rounded-lg shadow-lg"
             src="https://www.youtube.com/embed/1lZ09OskoGM"
             title="Uk Student Visa"
@@ -13,7 +21,7 @@ const Video = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </div>

@@ -1,5 +1,10 @@
 import React from "react";
+import { IoIosMail } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -11,7 +16,7 @@ const Contact = () => {
 
       <div className="w-full max-w-6xl grid md:grid-cols-2 gap-8">
         {/* Contact Details */}
-        <div className="bg-[rgb(243,244,246)] p-6 rounded-lg shadow-md">
+        <div className="bg-[rgb(250,250,250)] p-6 rounded-lg">
           <h2 className="text-2xl  font-semibold text-gray-800 mb-4">
             Contact Information
           </h2>
@@ -19,48 +24,48 @@ const Contact = () => {
             Have a question? Reach out to us and we'll get back to you shortly.
           </p>
 
-          <div className="space-y-2">
+          <div className="space-y-4">
             <div className="flex items-center gap-4">
-              <span className="text-blue-500 text-2xl">📍</span>
+              <span className="text-red text-2xl"><FaLocationDot /></span>
               <p className="text-gray-700">65, M.K.0 Abiola Way. Opposite Dikat Building, Ring Road, lbadan, Oyo State, Nigeria.</p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-green-500 text-2xl">📧</span>
+              <span className="text-black text-2xl"><IoIosMail /></span>
               <p className="text-gray-700"> enquiries@slydeintlng.com </p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-green-500 text-2xl">📧</span>
+              <span className="text-black text-2xl"><IoIosMail /></span>
+              <p className="text-gray-700"> admissions@slydeintlng.com</p>
+            </div>
+            <div className="flex items-center gap-4">
+              <span className="text-black text-2xl"><IoIosMail /></span>
               <p className="text-gray-700"> info@slydeintlng.com </p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-red-500 text-2xl">📞</span>
+              <span className="text-black text-2xl"><FaPhoneAlt /></span>
               <p className="text-gray-700">+234 805 562 4764</p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-red-500 text-2xl">📞</span>
-              <p className="text-gray-700">+234 816 725 5630</p>
-            </div>
-            <div className="flex items-center gap-4">
-              <span className="text-red-500 text-2xl">📞</span>
+              <span className="text-black text-2xl"><FaPhoneAlt /></span>
               <p className="text-gray-700">+234 813 606 7362</p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-blue-700 text-2xl"><FaFacebook /></span>
+              <span className="text-black text-2xl"><FaFacebook /></span>
               <p className="text-gray-700"> Slyde International Services </p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-green-500 text-2xl">📧</span>
+              <span className="text-orange text-2xl"><FaInstagramSquare /></span>
               <p className="text-gray-700"> Slyde_intl_services </p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-green-500 text-2xl">📧</span>
+              <span className="text-black text-2xl"><FaXTwitter /></span>
               <p className="text-gray-700">Slyde_Intl</p>
             </div>
           </div>
         </div>
 
         {/* Contact Form */}
-        <div className="bg-[rgb(243,244,246)] p-6 rounded-lg shadow-md">
+        <div className="bg-[rgb(250,250,250)] p-6 rounded-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Send Us a Message
           </h2>
@@ -123,8 +128,17 @@ const Contact = () => {
   );
 };
 
+
 export default Contact;
 
+
+// .banner-home-bg {
+//   background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
+//   background: linear-gradient(90deg, rgba(9, 209, 2, 0.164) 0.19%, rgba(245, 255, 152, 0.432) 49.48%, rgba(0, 255, 34, 0.123) 99.8%);
+  
+//   /* background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%); */
+//   height: 100vh;
+// }
 
 // For Further Enquiries, kindly contact us	O
 // SLYDE INTERNATIONAL SERVICES LIMITED (RC: 921938)

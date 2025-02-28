@@ -24,8 +24,8 @@ const flagData = [
 const FlagMarquee = () => {
   return (
     <div className="h-[25vh] flex items-center justify-center bg-white">
-      <Marquee speed={60} gradient={false}>
-        <div className="flex items-center gap-10">
+      <Marquee speed={65} gradient={false}>
+        <div className="flex ml-10 md:ml-[0px] items-center gap-10">
           {flagData.map((flag, index) => (
             <div key={index} className="flex flex-col items-center">
               <img

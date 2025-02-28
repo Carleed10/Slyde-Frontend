@@ -13,7 +13,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="relative bg-[rgb(243,244,246)] py-16 px-6">
+    <section className="relative bg-[white] py-16 px-6">
       {/* Airplane Image */}
       <img 
         src="https://cdn-icons-png.flaticon.com/512/201/201623.png" 
@@ -28,7 +28,7 @@ const OurServices = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {services.map((service, index) => (
-          <div key={index} className="bg-white p-6 shadow-lg rounded-lg flex items-start gap-4">
+          <div key={index} className="bg-[rgb(250,250,250)] p-6 shadow-lg rounded-lg flex items-start gap-4">
             <div className="text-blue-600 text-3xl">{service.icon}</div>
             <div>
               <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
