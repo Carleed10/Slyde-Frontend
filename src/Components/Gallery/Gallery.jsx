@@ -17,6 +17,10 @@ import image9 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.5
 import image10 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.49_2b7dd0ab.jpg";
 import image11 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 09.49.23_e07e1d75.jpg";
 import image12 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.50_0ed6af39.jpg";
+import visa from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.48.10_36dca76e.jpg";
+import visa2 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.49.38_81e4c85f.jpg";
+import visa3 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.49.09_7168c29b.jpg";
+import visa4 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.48.10_00b461cb.jpg";
 // import image13 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.49_a0ba5b7a.jpg";
 
 
@@ -38,6 +42,10 @@ const galleryItems = [
   { id: 15, type: "image", src: image11 },
   { id: 16, type: "image", src: image12 },
   { id: 17, type: "video", src: video5 },
+  { id: 18, type: "visa", src: visa },
+  { id: 19, type: "visa", src: visa2 },
+  { id: 20, type: "visa", src: visa3 },
+  { id: 21, type: "visa", src: visa4 },
 
   
   // { id: 17, type: "image", src: image13 },
@@ -71,6 +79,12 @@ const Gallery = () => {
         >
           Videos
         </button>
+        <button
+          className={`px-4 py-2 rounded-md ${filter === "visa" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
+          onClick={() => setFilter("visa")}
+        >
+          Visa
+        </button>
       </div>
 
       {/* Masonry Layout */}
@@ -80,7 +94,7 @@ const Gallery = () => {
             key={item.id}
             className="overflow-hidden mt-2 md:mt-6 rounded-lg shadow-lg cursor-pointer transition-transform duration-300 hover:scale-105"
           >
-            {item.type === "image" ? (
+            {item.type === "image" || item.type === "visa" ? (
               <img src={item.src} alt="Gallery Item" className="w-full h-auto rounded-lg" loading="lazy" />
             ) : (
               <video controls className="w-full h-auto rounded-lg">

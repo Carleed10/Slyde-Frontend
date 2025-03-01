@@ -21,14 +21,14 @@ const Hero = () => {
 
         {/* Right Section - Image Placeholder */}
         <div className="relative space-y-4 flex flex-col md:flex md:flex-row justify-between md:w-[48%] mt-10 md:mt-0">
-          <div className="w-40 h-64 md:w-[48%] md:h-[400px] bg-blue-300 rounded-3xl shadow-lg">
+          <div className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-blue-300 rounded-3xl shadow-lg">
           <img
                 className="w-full h-[100%] rounded-3xl object-cover"
                 src={france}
                 alt=""
               />
           </div>
-          <div className="w-40 h-64 md:w-[48%] md:h-[400px] bg-gray-400 rounded-3xl shadow-lg  md:top-6 md:right-[-20px]">
+          <div className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-gray-400 rounded-3xl shadow-lg  md:top-6 md:right-[-20px]">
 
           <img
                 className="w-full h-[100%] rounded-3xl  object-cover"

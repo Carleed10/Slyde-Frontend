@@ -21,7 +21,7 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div className="mt-10 md:w-[20%] leading-[30px]  mt-[60px] font-light md:mt-0 text-center md:text-left">
-              <h4 className="font-bold text-[rgb(249,115,22)] md:font-normal mb-6">Quick Links</h4>
+              <h4 className="mb-4 text-[20px] font-bold font-poppins text-[rgb(249,115,22)]">Quick Links</h4>
               
               <Link to='/services'> <p>Our Services</p>   </Link>
               <Link to='/contact'> <p>Addresses</p>   </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
 
             {/* Legals */}
             <div className="mt-10 md:w-[20%] leading-[30px]  mt-[60px] font-light md:mt-0 text-center md:text-left">
-              <h4 className="font-bold text-[rgb(249,115,22)] md:font-normal mb-6">Legals</h4>
+              <h4 className="mb-4 text-[20px] font-bold font-poppins text-[rgb(249,115,22)]">Legals</h4>
               <p>Privacy Policy</p>
               <p>Terms of Service</p>
               <p>Disclaimer</p>
@@ -45,7 +45,7 @@ const Footer = () => {
 
             {/* Services */}
             <div className="mt-10 md:w-[20%] mt-[60px] md:mt-0 text-center md:text-left">
-            <h4 className="mb-6 text-[rgb(249,115,22)]">Address</h4>
+            <h4 className="mb-4 text-[20px] font-bold font-poppins text-[rgb(249,115,22)]">Address</h4>
               <h6 className="leading-[30px] text-[15px] font-light" >65, M.K.0 Abiola Way. Opposite Dikat Building, Ring Road, lbadan, Oyo State, Nigeria.</h6>
               
             </div>

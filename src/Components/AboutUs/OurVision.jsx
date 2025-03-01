@@ -1,17 +1,28 @@
 import React from "react";
+import aboutImage from "../../Images/Study Abroad Tips.jpg"; // Replace with your actual image path
 
 const OurVision = () => {
   return (
-    <section className="bg-gray-100 py-12 px-6">
-      <div className="max-w-5xl mx-auto flex flex-col gap-12">
+    <section className="bg-[white] py-12 px-6">
+      <div className="w-[85%] mx-auto flex flex-col gap-12">
 
-        {/* About Us Section */}
-        <div className="bg-white shadow-lg rounded-lg p-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
-          <p className="text-gray-700 leading-relaxed">
-            At <span className="font-semibold text-green-600">Slyde International Services Limited</span>, we are committed to excellence in professional educational consultancy services. With a deep understanding of global education systems, we provide expert guidance to students seeking admission into prestigious institutions worldwide.
+        {/* About Us Section with Image */}
+        <div className="bg-white flex justify-between flex-col md:flex-row items-center md:items-start gap-6">
 
-Over the years, our dedication to quality, transparency, and innovation has earned us a reputation as a trusted name in Nigeria and Africa. We believe in shaping bright futures through expert guidance, seamless admissions support, and an unwavering commitment to student success. </p>
+          {/* Text Section */}
+          <div className="w-full md:w-[50%]">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
+            <p className="text-gray-700 leading-relaxed">
+              At <span className="font-semibold text-green-600">Slyde International Services Limited</span>, we are committed to excellence in professional educational consultancy services. With a deep understanding of global education systems, we provide expert guidance to students seeking admission into prestigious institutions worldwide.
+              <br /><br />
+              Over the years, our dedication to quality, transparency, and innovation has earned us a reputation as a trusted name in Nigeria and Africa. We believe in shaping bright futures through expert guidance, seamless admissions support, and an unwavering commitment to student success.
+            </p>
+          </div>
+
+          {/* Image Section */}
+          <div className="w-full md:w-[40%]">
+            <img src={aboutImage} alt="About Us" className="w-full h-auto rounded-lg shadow-md" />
+          </div>
         </div>
 
         {/* Vision Section */}
