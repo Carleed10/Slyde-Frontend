@@ -4,7 +4,7 @@ import aboutImage from "../../Images/Study Abroad Tips.jpg"; // Replace with you
 const OurVision = () => {
   return (
     <section className="bg-[white] py-12 px-6">
-      <div className="w-[85%] mx-auto flex flex-col gap-12">
+      <div className="w-[95%] md:w-[85%] mx-auto flex flex-col gap-12">
 
         {/* About Us Section with Image */}
         <div className="bg-white flex justify-between flex-col md:flex-row items-center md:items-start gap-6">

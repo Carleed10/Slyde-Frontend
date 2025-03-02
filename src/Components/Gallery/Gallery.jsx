@@ -5,6 +5,13 @@ import video2 from "../../Videos/WhatsApp Video 2025-02-19 at 05.00.00_31659340.
 import video3 from "../../Videos/WhatsApp Video 2025-02-19 at 04.59.59_ce82ded5.mp4";
 import video4 from "../../Videos/WhatsApp Video 2025-02-27 at 02.52.37_92058904.mp4";
 import video5 from "../../Videos/WhatsApp Video 2025-02-19 at 04.59.39_0cfa36f7.mp4";
+import video6 from "../../Videos/1.mp4";
+import video7 from "../../Videos/2.mp4";
+import video8 from "../../Videos/3.mp4";
+import video9 from "../../Videos/4.mp4";
+
+
+
 import image from "../../Images/WhatsApp Image 2025-02-19 at 04.59.47_3fc6f46e.jpg";
 import image2 from "../../Images/WhatsApp Image 2025-02-19 at 04.59.48_24f33a82.jpg";
 import image3 from "../../Images/WhatsApp Image 2025-02-19 at 04.59.52_864f0408.jpg";
@@ -17,11 +24,40 @@ import image9 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.5
 import image10 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.49_2b7dd0ab.jpg";
 import image11 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 09.49.23_e07e1d75.jpg";
 import image12 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.50_0ed6af39.jpg";
+import image13 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 09.49.22_152a010c.jpg";
+import image14 from "../../Images/1.jpg";
+import image15 from "../../Images/2.jpg";
+import image16 from "../../Images/3.jpg";
+import image17 from "../../Images/4.jpg";
+import image18 from "../../Images/5.jpg";
+import image19 from "../../Images/6.jpg";
+import image20 from "../../Images/7.jpg";
+import image21 from "../../Images/8.jpg";
+import image22 from "../../Images/9.jpg";
+import image23 from "../../Images/10.jpg";
+import image24 from "../../Images/11.jpg";
+import image25 from "../../Images/12.jpg";
+import image26 from "../../Images/13.jpg";
+import image27 from "../../Images/14.jpg";
+
 import visa from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.48.10_36dca76e.jpg";
 import visa2 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.49.38_81e4c85f.jpg";
 import visa3 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.49.09_7168c29b.jpg";
-import visa4 from "../../Images/New folder/WhatsApp Image 2025-02-27 at 08.48.10_00b461cb.jpg";
-// import image13 from "../../Images/New folder/WhatsApp Image 2025-02-28 at 13.07.49_a0ba5b7a.jpg";
+import visa4 from "../../Images/Visa/1.jpg";
+import visa5 from "../../Images/Visa/2.jpg";
+import visa6 from "../../Images/Visa/3.jpg";
+import visa7 from "../../Images/Visa/4.jpg";
+import visa8 from "../../Images/Visa/5.jpg";
+import visa9 from "../../Images/Visa/6.jpg";
+import visa10 from "../../Images/Visa/8.jpg";
+import visa11 from "../../Images/Visa/9.jpg";
+
+
+
+
+
+
+
 
 
 const galleryItems = [
@@ -45,10 +81,38 @@ const galleryItems = [
   { id: 18, type: "visa", src: visa },
   { id: 19, type: "visa", src: visa2 },
   { id: 20, type: "visa", src: visa3 },
-  { id: 21, type: "visa", src: visa4 },
+  { id: 21, type: "visa", src: visa4 }, 
+  { id: 22, type: "image", src: image13 },
+  { id: 23, type: "image", src: image14 },
+  { id: 24, type: "image", src: image15 },
+  { id: 22, type: "image", src: image16 },
+  { id: 23, type: "image", src: image17 },
+  { id: 24, type: "image", src: image18 },
+  { id: 25, type: "image", src: image19 },
+  { id: 26, type: "image", src: image20 },
+  { id: 27, type: "image", src: image21 },
+  { id: 28, type: "image", src: image22 },
+  { id: 29, type: "image", src: image23 },
+  { id: 30, type: "image", src: image24 },
+  { id: 31, type: "image", src: image25 }, 
+  { id: 32, type: "image", src: image26 },
+  { id: 33, type: "image", src: image27 },
+  { id: 34, type: "video", src: video6 },
+  { id: 35, type: "video", src: video7 },
+  { id: 36, type: "video", src: video8},
+  { id: 37, type: "video", src: video9 },
+  { id: 38, type: "visa", src: visa5 },
+  { id: 39, type: "visa", src: visa6 },
+  { id: 40, type: "visa", src: visa7 },
+  { id: 41, type: "visa", src: visa8 }, 
+  { id: 42, type: "visa", src: visa9 },
+  { id: 43, type: "visa", src: visa10 },
+  { id: 43, type: "visa", src: visa11 },
 
   
-  // { id: 17, type: "image", src: image13 },
+
+
+
 ];
 
 const breakpointColumns = {
