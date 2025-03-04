@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
 
           {/* Call-to-Action Button */}
           <Link to={"/aboutus"}>
-            <button className="mt-6 bg-red-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600 transition duration-300">
+            <button className="mt-6 bg-[rgb(255,61,0)] text-white px-6 py-3 rounded-lg text-lg hover:bg-red-600 transition duration-300">
               Learn More
             </button>
           </Link>

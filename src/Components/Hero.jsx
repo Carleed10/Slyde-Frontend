@@ -4,16 +4,16 @@ import france from "../Images/stdet.jpg"
 
 const Hero = () => {
   return (
-    <section className="w-full mt-[12vh] md:mt-[0vh] min-h-screen bg-gradient-to-r from-[rgba(9,209,2,0.164)] via-[rgba(245,255,152,0.432)] to-[rgba(0,255,34,0.123)] flex flex-col items-center justify-center p-6">
+    <section className="w-full mt-[12vh] md:mt-[8vh] min-h-screen bg-gradient-to-r from-[rgba(9,209,2,0.164)] via-[rgba(245,255,152,0.432)] to-[rgba(0,255,34,0.123)] flex flex-col items-center justify-center p-6">
       {/* Hero Content */}
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between">
         
         {/* Left Text Section */}
         <div className="md:w-[48%] md:text-left">
-          <h1 className="text-4xl font-poppins md:text-6xl font-bold text-gray-900">
+          <h1 className="text-[40px] text-[rgb(0,29,8)] leading-tight md:leading-none font-poppins md:text-[65px] font-bold">
             Travel Explore <br /> And Enjoy Every Moment
           </h1>
-          <p className="mt-4 text-[15px] text-gray-700 md:text-lg max-w-lg">
+          <p className="mt-4 text-[12px] text-[rgb(100,100,100)] md:text-[15px] max-w-lg">
             Embark on a journey where every moment is an opportunity for discovery, from bustling streets to breathtaking landscapes.
           </p>
           

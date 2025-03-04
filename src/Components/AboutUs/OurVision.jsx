@@ -26,8 +26,8 @@ const OurVision = () => {
         </div>
 
         {/* Vision Section */}
-        <div className="bg-yellow-500 text-black shadow-lg rounded-lg p-8">
-          <h3 className="text-2xl font-semibold mb-2">Our Vision</h3>
+        <div className="">
+          <h3 className="text-3xl font-bold text-[rgb(239,68,68)] mb-2">Our Vision</h3>
           <ul className="list-disc space-y-2 pl-5">
             <li>To be recognized as a leading Professional Educational Consultancy Service provider in Nigeria and Africa.</li>
             <li>To offer Corporate Training and Development initiatives tailored to meet the unique needs of clients and organizations through our partner institutions.</li>
@@ -35,9 +35,9 @@ const OurVision = () => {
         </div>
 
         {/* Mission Section */}
-        <div className="bg-red-500 shadow-lg rounded-lg p-8">
-          <h3 className="text-2xl font-semibold text-white mb-2">Our Mission</h3>
-          <ul className="list-disc space-y-2 text-white pl-5">
+        <div className="">
+          <h3 className="text-3xl font-bold  text-[rgb(168,85,247)] mb-2">Our Mission</h3>
+          <ul className="list-disc space-y-2 text-black pl-5">
             <li>To act as a bridge across cultures, providing academic support for the next generation.</li>
             <li>Our experienced education counselors are dedicated to advising students on suitable courses and career opportunities based on their background, interests, aptitude, and aspirations.</li>
             <li>We maintain a broad network with education providers, ensuring a diverse range of study options to meet our students' needs.</li>
@@ -45,8 +45,8 @@ const OurVision = () => {
         </div>
 
         {/* Objectives Section */}
-        <div className="bg-blue-600 text-white shadow-lg rounded-lg p-8">
-          <h3 className="text-2xl font-semibold mb-2">Our Objectives</h3>
+        <div className="">
+          <h3 className="text-3xl font-bold text-[rgb(59,130,246)] mb-2">Our Objectives</h3>
           <ul className="list-disc space-y-2 pl-5">
             <li>To attract and develop the most talented students and staff worldwide.</li>
             <li>To expand our consultancy services to meet the growing needs of prospective students.</li>

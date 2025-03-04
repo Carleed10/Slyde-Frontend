@@ -26,7 +26,7 @@ const Navbar = ({ onContactClick }) => {
           </Link>
 
           {/* Navigation Links */}
-          <ul className="flex  items-center md:gap-8 lg:gap-12 hidden md:flex">
+          <ul className="flex  items-center lg:gap-8 lg:gap-12 hidden lg:flex">
             {navigationLinks.map((data) => (
               <Link
                 key={data.title}
@@ -41,7 +41,7 @@ const Navbar = ({ onContactClick }) => {
           {/* Menu Icon for Mobile */}
           <div
             onClick={() => setshowDrawer(true)}
-            className="md:hidden text-white md:text-black p-2 rounded-md"
+            className="lg:hidden text-white lg:text-black p-2 rounded-md"
           >
             <CgMenu color="black" size={24} />
           </div>
