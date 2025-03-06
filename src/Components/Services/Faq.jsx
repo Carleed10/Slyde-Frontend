@@ -1,6 +1,6 @@
 import React from 'react'
 import AccordionUsage from './accordion'
-import house from '../../Images/woman-walking-outdoors-park.jpg'
+import house from '../../Images/portrait-male-student-with-books.jpg'
 
 const Faq = () => {
   return (
@@ -14,8 +14,8 @@ const Faq = () => {
           <AccordionUsage/>
         </div>
 
-        <div data-aos="zoom-in" data-aos-duration="2000" className='w-[100%] md:w-[40%] rounded-[30px] bg-[purple]'>
-          <img className='w-full h-auto object-fit ' src={house} alt="" />
+        <div data-aos="zoom-in" data-aos-duration="2000" className='w-[100%] md:h-[500px] md:w-[40%] rounded-[30px]'>
+          <img className='w-full h-auto object-cover ' src={house} alt="" />
         </div>
         </div>
 

@@ -9,11 +9,13 @@ import ServiceSection from '../Components/ServiceSection'
 import ServiceProvided from '../Components/ServiceProvided'
 import Video from '../Components/Video'
 import Testimonials from '../Components/Testimonials'
+import Animation from '../Components/Animation/Animation'
 
 const HomePage = () => {
   return (
     <>
     
+        <Animation>
         <div>
             <div id='Hero'>
                 <Hero/>
@@ -46,6 +48,7 @@ const HomePage = () => {
             </div>
 
         </div>
+        </Animation>
     
     </>
   )

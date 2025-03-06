@@ -4,10 +4,13 @@ import About from '../Components/AboutUs/About'
 import WhyChooseUs from '../Components/WhyChooseUs'
 import OurVision from '../Components/AboutUs/OurVision'
 import CertificateGallery from '../Components/AboutUs/CertificateGallery'
+import Animation from '../Components/Animation/Animation'
 
 const AboutPage = () => {
   return (
     <>
+        <Animation>
+
         <div>
             
             <div id='AboutBanner'>
@@ -25,6 +28,8 @@ const AboutPage = () => {
                 <About/>
             </div>
         </div>
+
+        </Animation>
     
     </>
   )

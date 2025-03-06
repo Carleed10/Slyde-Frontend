@@ -60,7 +60,7 @@ const HowWeHelp = () => {
         </div>
 
         {/* Right Side - Image Section */}
-        <div className="w-full md:w-[40%] h-auto rounded-lg overflow-hidden">
+        <div data-aos="fade-left" data-aos-duration="2000" className="w-full md:w-[40%] h-auto rounded-lg overflow-hidden">
           <img src={image} alt="Tourist pointing up" className="w-full h-full object-cover" />
         </div>
       </div>

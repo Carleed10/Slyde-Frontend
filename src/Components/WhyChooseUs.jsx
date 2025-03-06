@@ -7,10 +7,10 @@ const WhyChooseUs = () => {
     <div className="w-full py-16">
       <div className="max-w-6xl mx-auto flex justify-between flex-col md:flex-row items-center px-6">
         {/* Left Section - Text */}
-        <div className="md:w-1/2">
+        <div data-aos="fade-right" data-aos-duration="2000" className="md:w-1/2">
           <h2 className="text-red-500 font-vidaloka text-xl font-semibold">Why Choose Us</h2>
           <h1 className="text-3xl md:text-4xl font-poppins font-bold text-gray-900 mt-2">
-            Why Slyde Internationals?
+            Why Slyde International?
           </h1>
           <p className="text-gray-600 mt-4">
             We help students achieve their dreams of studying abroad by
@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Right Section - Image */}
-        <div className="md:w-[40%] mt-8 md:mt-0">
+        <div data-aos="flip-up" data-aos-duration="1000" className="md:w-[40%] mt-8 md:mt-0">
           <img
             src={students}
             alt="Students Studying Abroad"

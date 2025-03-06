@@ -3,11 +3,13 @@ import Faq from '../Components/Services/Faq'
 import ServicesBanner from '../Components/Services/ServicesBanner'
 import OurServices from '../Components/Services/OurServices'
 import HeroSection from '../Components/Services/HeroSection'
+import Animation from '../Components/Animation/Animation'
 
 const ServicesPage = () => {
   return (
     <>
-        <div>
+       <Animation>
+       <div>
             <div id='ServicesBanner'>
                 <ServicesBanner/>
             </div>
@@ -21,6 +23,7 @@ const ServicesPage = () => {
                 <Faq/>
             </div>
         </div>
+       </Animation>
     
     
     </>

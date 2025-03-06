@@ -10,7 +10,7 @@ const Hero = () => {
         
         {/* Left Text Section */}
         <div className="md:w-[48%] md:text-left">
-          <h1 className="text-[40px] text-[rgb(0,29,8)] leading-tight md:leading-none font-poppins md:text-[65px] font-bold">
+          <h1 data-aos="zoom-out-up" data-aos-duration="1500" className="text-[40px] text-[rgb(0,29,8)] leading-tight md:leading-none font-poppins md:text-[65px] font-bold">
             Travel Explore <br /> And Enjoy Every Moment
           </h1>
           <p className="mt-4 text-[12px] text-[rgb(100,100,100)] md:text-[15px] max-w-lg">
@@ -21,14 +21,14 @@ const Hero = () => {
 
         {/* Right Section - Image Placeholder */}
         <div className="relative space-y-4 flex flex-col md:flex md:flex-row justify-between md:w-[48%] mt-10 md:mt-0">
-          <div className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-blue-300 rounded-3xl shadow-lg">
+          <div data-aos="zoom-in-up" data-aos-duration="1500" className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-blue-300 rounded-3xl shadow-lg">
           <img
                 className="w-full h-[100%] rounded-3xl object-cover"
                 src={france}
                 alt=""
               />
           </div>
-          <div className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-gray-400 rounded-3xl shadow-lg  md:top-6 md:right-[-20px]">
+          <div data-aos="zoom-in-down" data-aos-duration="1500"  className="w-[100%] h-auto md:w-[48%] md:h-[400px] bg-gray-400 rounded-3xl shadow-lg  md:top-6 md:right-[-20px]">
 
           <img
                 className="w-full h-[100%] rounded-3xl  object-cover"

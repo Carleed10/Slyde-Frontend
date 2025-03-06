@@ -7,9 +7,10 @@ import image4 from "../Images/travel-agent-offering-trip-planning-clients.jpg"
 
 const ServiceProvided = () => {
   return (
-    <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col lg:flex-row ">
+    <div className="w-[100%] bg-[rgb(250,250,250)]">
+      <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col lg:flex-row ">
       {/* Left Side - Heading & Services List */}
-      <div className="lg:w-1/2 w-full lg:text-left">
+      <div data-aos="fade-up" data-aos-duration="2000" className="lg:w-1/2 w-full lg:text-left">
         <h2 className="text-4xl font-poppins font-bold text-gray-900">What services we provide</h2>
         <div className="mt-6 space-y-6">
           <div>
@@ -34,7 +35,7 @@ const ServiceProvided = () => {
       </div>
 
       {/* Right Side - Image Grid */}
-      <div className="lg:w-1/2 w-full flex justify-center lg:justify-end mt-10 lg:mt-0 relative">
+      <div data-aos="zoom-in" data-aos-duration="1000" className="lg:w-1/2 w-full flex justify-center lg:justify-end mt-10 lg:mt-0 relative">
         <div className="grid grid-cols-2 gap-6">
           {/* Image 1 */}
           <div className="relative w-40 h-40 bg-gray-200 rounded-full overflow-hidden">
@@ -71,6 +72,7 @@ const ServiceProvided = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

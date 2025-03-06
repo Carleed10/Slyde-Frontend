@@ -28,7 +28,7 @@ const OurServices = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {services.map((service, index) => (
-          <div key={index} className="bg-[rgb(250,250,250)] p-6 shadow-lg rounded-lg flex items-start gap-4">
+          <div data-aos="flip-up" data-aos-duration="2000" key={index} className="bg-[rgb(250,250,250)] p-6 shadow-lg rounded-lg flex items-start gap-4">
             <div className="text-blue-600 text-3xl">{service.icon}</div>
             <div>
               <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
