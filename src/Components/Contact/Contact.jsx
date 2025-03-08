@@ -107,7 +107,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="Seun John"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200"
                 required
               />
@@ -119,7 +119,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="example@email.com"
+                placeholder="slyde@gmail.com"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200"
                 required
               />
