@@ -11,21 +11,21 @@ import student3 from "../Images/testimonial3.png"
 const testimonials = [
   {
     id: 1,
-    name: "Seun Sanusi",
+    name: "Bolaji Ayomide Ogunlowo",
     role: "Aberystwyth University, Wales, UK",
     image: student,
     text: "This platform helped me achieve my dream of studying abroad. The process was seamless, and the support was incredible!",
   },
   {
     id: 2,
-    name: "Sanusi Babafemi",
+    name: "Seun Sanusi",
     role: "Aberystwyth University, Wales, UK",
     image: student2,
     text: "A wonderful experience! The team guided me through everything and made my journey stress-free.",
   },
   {
     id: 3,
-    name: "Bolaji Ayomide Ogunlowo",
+    name: "Sanusi Babafemi",
     role: "Wrexham university, Wales, UK",
     image: student3,
     text: "Highly recommend their services! Everything was well-organized, and I got into my dream university.",
