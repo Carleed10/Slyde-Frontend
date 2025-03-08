@@ -3,27 +3,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import student from "../Images/testimonial.png"
+import student2 from "../Images/testimonial2.png"
+import student3 from "../Images/testimonial3.png"
+
 
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Software Engineer",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    name: "Seun Sanusi",
+    role: "Aberystwyth University, Wales, UK",
+    image: student,
     text: "This platform helped me achieve my dream of studying abroad. The process was seamless, and the support was incredible!",
   },
   {
     id: 2,
-    name: "James Carter",
-    role: "Business Analyst",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    name: "Sanusi Babafemi",
+    role: "Aberystwyth University, Wales, UK",
+    image: student2,
     text: "A wonderful experience! The team guided me through everything and made my journey stress-free.",
   },
   {
     id: 3,
-    name: "Emily Davis",
-    role: "Marketing Specialist",
-    image: "https://randomuser.me/api/portraits/women/46.jpg",
+    name: "Bolaji Ayomide Ogunlowo",
+    role: "Wrexham university, Wales, UK",
+    image: student3,
     text: "Highly recommend their services! Everything was well-organized, and I got into my dream university.",
   },
 ];
@@ -46,7 +50,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-16 h-16 rounded-full mb-4 border-2 border-blue-500"
+                className="w-32 h-32 rounded-full mb-4 border-2 border-blue-500"
               />
               <p className="text-gray-700 italic mb-4">"{testimonial.text}"</p>
               <h3 className="text-lg font-semibold text-gray-900">{testimonial.name}</h3>
