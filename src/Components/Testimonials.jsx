@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import student from "../Images/testimonial.png"
 import student2 from "../Images/testimonial2.png"
 import student3 from "../Images/testimonial3.png"
+import student4 from "../Images/testimonial4.png"
 
 
 const testimonials = [
@@ -30,6 +31,13 @@ const testimonials = [
     image: student3,
     text: "Highly recommend their services! Everything was well-organized, and I got into my dream university.",
   },
+  {
+    id: 4,
+    name: "Makinde Ifeoluwa",
+    role: "University of Westminster, London, UK",
+    image: student4,
+    text: "They made my study abroad experience seamless and stress-free. I'm grateful for their professionalism and support",
+  },
 ];
 
 const Testimonials = () => {
@@ -46,7 +54,7 @@ const Testimonials = () => {
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
+            <div className="bg-white rounded-lg p-6 flex flex-col items-center">
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
@@ -54,7 +62,7 @@ const Testimonials = () => {
               />
               <p className="text-gray-700 italic mb-4">"{testimonial.text}"</p>
               <h3 className="text-lg font-semibold text-gray-900">{testimonial.name}</h3>
-              <p className="text-sm mb-30 text-gray-500">{testimonial.role}</p>
+              <p className="text-sm mb-50 text-gray-500">{testimonial.role}</p>
             </div>
           </SwiperSlide>
         ))}
