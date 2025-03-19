@@ -10,10 +10,15 @@ import cert5 from "../../Images/Certificates/2.jpg";
 import cert6 from "../../Images/Certificates/3.jpg";
 import cert7 from "../../Images/Certificates/4.jpg";
 import cert8 from "../../Images/Certificates/5.jpg";
+import cert9 from "../../Images/Certificates/cert7.jpg";
+import cert10 from "../../Images/Certificates/cert8.jpg";
+import cert11 from "../../Images/Certificates/cert9.jpg";
 
 
 
-const certificates = [cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8];
+
+
+const certificates = [cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9, cert10, cert11];
 
 
 const CertificateGallery = () => {

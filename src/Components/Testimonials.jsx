@@ -13,7 +13,7 @@ const testimonials = [
   {
     id: 1,
     name: "Bolaji Ayomide Ogunlowo",
-    role: "Aberystwyth University, Wales, UK",
+    role: "Wrexham university, Wales, UK",
     image: student,
     text: "This platform helped me achieve my dream of studying abroad. The process was seamless, and the support was incredible!",
   },
@@ -27,7 +27,7 @@ const testimonials = [
   {
     id: 3,
     name: "Sanusi Babafemi",
-    role: "Wrexham university, Wales, UK",
+    role: "Aberystwyth University, Wales, UK",
     image: student3,
     text: "Highly recommend their services! Everything was well-organized, and I got into my dream university.",
   },
