@@ -45,7 +45,7 @@ const CertificateGallery = () => {
               <img
                 src={src}
                 alt={`Certificate ${index + 1}`}
-                className="w-full h-60 object-cover rounded-lg shadow-md"
+                className="w-full h-80 object-cover rounded-lg shadow-md"
               />
             </div>
           ))}

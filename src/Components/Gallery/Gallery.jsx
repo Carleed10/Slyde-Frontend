@@ -53,6 +53,11 @@ import visa8 from "../../Images/Visa/vv5.jpg";
 import visa9 from "../../Images/Visa/vv6.jpg";
 import visa10 from "../../Images/Visa/vv8.jpg";
 import visa11 from "../../Images/Visa/vv9.jpg";
+import visa12 from "../../Images/Visa/visa.jpg";
+import visa13 from "../../Images/Visa/visa2.jpg";
+import visa14 from "../../Images/Visa/visa3.jpg";
+import visa15 from "../../Images/Visa/visa4.jpg";
+
 
 // Gallery Items
 const galleryItems = [
@@ -104,6 +109,10 @@ const galleryItems = [
 { id: 46, type: "image", src: image25 },
 { id: 47, type: "image", src: image26 },
 { id: 48, type: "image", src: image27 },
+{ id: 49, type: "visa", src: visa12 },
+{ id: 50, type: "visa", src: visa13},
+{ id: 51, type: "visa", src: visa14 },
+{ id: 52, type: "visa", src: visa15 },
 
 ];
 
