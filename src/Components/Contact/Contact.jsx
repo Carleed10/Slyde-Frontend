@@ -59,22 +59,22 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-4">
               <span className="text-black text-2xl"><IoIosMail /></span>
-              <p className="text-gray-700"> enquiries@slydeintlng.com </p>
+              <p className="text-gray-700"> admin@slydeintlng.com </p>
             </div>
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               <span className="text-black text-2xl"><IoIosMail /></span>
               <p className="text-gray-700"> admissions@slydeintlng.com </p>
-            </div>
-            <div className="flex items-center gap-4">
+            </div> */}
+            {/* <div className="flex items-center gap-4">
               <span className="text-black text-2xl"><IoIosMail /></span>
               <p className="text-gray-700"> info@slydeintlng.com </p>
-            </div>
+            </div> */}
             <div className="flex items-center gap-4">
-              <span className="text-black text-2xl"><FaPhoneAlt /></span>
+              <span className="text-black"><FaPhoneAlt size={20} /></span>
               <p className="text-gray-700">+234 805 562 4764</p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-black text-2xl"><FaPhoneAlt /></span>
+              <span className="text-black"><FaPhoneAlt size={20} /></span>
               <p className="text-gray-700">+234 813 606 7362</p>
             </div>
             <div className="flex items-center gap-4">
