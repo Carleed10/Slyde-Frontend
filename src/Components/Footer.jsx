@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
 
           <hr className="border-t border-[rgb(136,134,134)] my-10" />
-          <small className="block text-center">© 2025 Homiq. All rights served. Developed by Carleed Codes</small>
+          <small className="block text-center">© 2025 Slyde Internationals. All rights served.</small>
         </div>
       </div>
     
